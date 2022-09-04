@@ -1,0 +1,13 @@
+Colonne    -------------    tipo di dado   -------    attributi
+id                          BIGINT                    UNIQUE,NOT NULL,AUTO INCREMENT
+Marca                       VARCHAR(30)               NOT NULL
+Modello                     VARCHAR(30)               NOT NULL                                                               
+immatricolazione            DATE                      NOT NULL                                                                
+posti                       TINYINT(10)               NOT NULL                                                      
+alimentazione               VARCHAR(3)                DEFAULT:B                                              
+motore                      VARCHAR(5)                NOT NULL                                              
+cavalli                     SMALL                     NOT NULL                                                          
+peso                        SMALL                     NULL                                         
+condizione                  CHAR(1)                   DEFAULT:A                                        
+costo                       FLOAT(9,2)                NOT NULL                                              
+                                                              
